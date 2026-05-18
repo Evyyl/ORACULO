@@ -1,0 +1,14 @@
+[
+  {
+    "id": "colapso_agricola",
+    "titulo": "Colapso Agrícola Global",
+    "descricao": "Devido a secas extremas e degradação do solo, a produção de alimentos caiu em 40%. A fome ameaça bilhões de pessoas.",
+    "urgencia": "alta"
+  },
+  {
+    "id": "inundacao_costeira",
+    "titulo": "Inundação das Cidades Costeiras",
+    "descricao": "O derretimento das calotas polares atingiu um ponto crítico. O nível do mar subiu drasticamente, inundando centros urbanos costeiros e causando migrações em massa.",
+    "urgencia": "critica"
+  }
+]

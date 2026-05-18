@@ -1,0 +1,50 @@
+[
+  {
+    "id": "trilha_agro",
+    "crise_id": "colapso_agricola",
+    "opcoes_normais": [
+      {
+        "texto": "Implementar agricultura vertical em massa e bioengenharia de sementes.",
+        "consequencia": "A produção aumenta rapidamente. No entanto, o sistema requer alta demanda energética, pressionando outras infraestruturas."
+      },
+      {
+        "texto": "Racionamento global de comida e transição forçada para dietas sintéticas.",
+        "consequencia": "A fome aguda é contida, mas a tensão social atinge níveis perigosos. Protestos começam a eclodir pelo globo."
+      }
+    ],
+    "opcoes_dev": [
+      {
+        "codigo": "from climate import agriculture\nagriculture.optimize_yields(tech='vertical_farming', power_source='renewables')",
+        "consequencia": "Solução ideal encontrada! A integração de agricultura com redes de energia 100% renovável estabilizou a produção sem aumentar a pegada de carbono global."
+      },
+      {
+        "codigo": "import geoengineering\ngeoengineering.inject_aerosols(target_temp_decrease=1.5)",
+        "consequencia": "A temperatura caiu, aliviando as secas. Porém, a alteração nos padrões de chuva causou inundações imprevisíveis no hemisfério sul."
+      }
+    ]
+  },
+  {
+    "id": "trilha_agua",
+    "crise_id": "inundacao_costeira",
+    "opcoes_normais": [
+      {
+        "texto": "Construir diques de contenção e barreiras oceânicas gigantes.",
+        "consequencia": "As cidades foram protegidas temporariamente, mas o custo material foi imenso. O ecossistema costeiro foi severamente afetado."
+      },
+      {
+        "texto": "Evacuação em massa e relocação coordenada para o interior.",
+        "consequencia": "Milhões perderam suas casas e identidades culturais, mas a perda de vidas humanas foi mitigada com sucesso."
+      }
+    ],
+    "opcoes_dev": [
+      {
+        "codigo": "from infrastructure import coastal_defense\ncoastal_defense.deploy_adaptive_barriers(sea_level_rise=1.5, materials='eco-concrete')",
+        "consequencia": "Barreiras adaptativas implementadas com sucesso usando materiais que sequestram carbono. A mitigação é eficiente a longo prazo."
+      },
+      {
+        "codigo": "from migration import urban_planning\nurban_planning.relocate_coastal_cities(speed='fast')",
+        "consequencia": "Relocação ocorreu tão rápido que infraestruturas no interior não suportaram a carga. Crise de saneamento básico detectada."
+      }
+    ]
+  }
+]

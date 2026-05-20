@@ -47,4 +47,40 @@
       }
     ]
   }
+  {
+    "id": "trilha_ecosistemas",
+    "crise_id": "colapso_ecosistemas",
+    "opcoes_normais": [
+      {
+        "texto": "Criar reservas naturais e corredores de biodiversidade.",
+        "consequencia": "Algumas espécies se recuperaram, mas a perda de habitats críticos continuou, ameaçando a estabilidade climática."
+      },
+      {
+        "texto": "Implementar programas de reprodução em cativeiro para espécies ameaçadas.",
+        "consequencia": "Algumas populações foram salvas, mas a falta de habitat natural limitou o sucesso a longo prazo."
+      }
+    ],
+    "opcoes_dev": [
+      {
+        "codigo": "from conservation import genetic_rescue\ngenetic_rescue.enhance_genetic_diversity(species='endangered')",
+        "consequencia": "A diversidade genética aumentou, melhorando a resiliência das espécies. No entanto, questões éticas sobre manipulação genética surgiram."
+      },
+      {
+        "codigo": "import ecosystem_restoration\necosystem_restoration.rewilding(target_areas='deforested')",
+        "consequencia": "A restauração de ecossistemas trouxe de volta espécies-chave, mas o processo é lento e os resultados ainda são incertos."
+      }
+    ]
+  }
+  {
+    "id": "trilha_energia",
+    "crise_id": "energia_escassa",
+    "opcoes_normais": [
+      {
+        "texto": "Racionamento de energia e incentivo ao uso de transporte público.",
+        "consequencia": "O consumo de energia diminuiu, mas a mobilidade urbana foi severamente afetada, causando impactos econômicos."
+      },
+      {
+        "texto": "Investimento massivo em energia renovável, como solar e eólica.",
+        "con
+  }
 ]

@@ -11,4 +11,22 @@
     "descricao": "O derretimento das calotas polares atingiu um ponto crítico. O nível do mar subiu drasticamente, inundando centros urbanos costeiros e causando migrações em massa.",
     "urgencia": "critica"
   }
+  {
+    "id": "colapso_ecosistemas",
+    "titulo": "Colapso dos Ecossistemas",
+    "descricao": "A perda de biodiversidade atingiu um ponto de ruptura. Ecossistemas inteiros estão colapsando, afetando a cadeia alimentar e a estabilidade climática.",
+    "urgencia": "alta"
+  }
+  {
+    "id": "crise_agua",
+    "titulo": "Crise Global da Água",
+    "descricao": "A escassez de água potável atingiu níveis críticos. Milhões de pessoas enfrentam falta de acesso à água limpa, levando a conflitos e crises humanitárias.",
+    "urgencia": "critica"
+  }
+  {
+    "id": "energia_escassa",
+    "titulo": "Escassez de Energia",
+    "descricao": "A demanda por energia supera a oferta, levando a apagões e impactos econômicos significativos.",
+    "urgencia": "alta"
+  }
 ]

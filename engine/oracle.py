@@ -45,7 +45,7 @@ class OracleAI:
 | |_| |  _ <  / ___ \ |___| |_| | |__| |_| |
  \___/|_| \_\ /_/   \_\____|\___/|_____\___/ 
         """
-        slow_print(ascii_art, delay=0.001)
+        slow_print(ascii_art, delay=0.0001)
         time.sleep(1)
 
         slow_print("==========================================", 0.01)
